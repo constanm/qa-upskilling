@@ -61,7 +61,7 @@ public class ParallelSeleniumTest {
     private static List<WebDriver> driversToCleanup = Collections.synchronizedList(new ArrayList<>());
 
     @BeforeClass
-    public static void initBrowserVariables() {
+    public static void initBrowserProperties() {
         System.setProperty("webdriver.chrome.driver", "D:\\WORK\\SELENIUM\\chromedriver.exe");
 
         System.setProperty("webdriver.gecko.driver","D:\\WORK\\SELENIUM\\geckodriver.exe");
