@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1549007050477,563,browse,200,OK,basic load 1-1,text,true,,979,129,1,1,563,0,202
+1549007051225,584,browse,200,OK,basic load 1-1,text,true,,979,129,2,2,584,0,226
+1549007051458,672,browse,200,OK,basic load 1-2,text,true,,979,129,1,1,672,0,294
+1549007052377,634,browse,200,OK,basic load 1-2,text,true,,979,129,1,1,634,0,266

@@ -1,0 +1,322 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1549009021376,2411,browse category,200,OK,peak load 1-1,text,true,,983,129,1,1,https://reqres.in/api/users?page=3,2411,0,2029
+1549009024759,735,browse category,200,OK,peak load 1-2,text,true,,983,129,2,2,https://reqres.in/api/users?page=3,735,0,221
+1549009024699,795,search for particular item,200,OK,peak load 1-1,text,true,,674,124,2,2,https://reqres.in/api/users/5,795,0,207
+1549009026105,406,search for particular item,200,OK,peak load 1-2,text,true,,674,124,2,2,https://reqres.in/api/users/5,406,0,0
+1549009028581,625,browse category,200,OK,peak load 1-3,text,true,,983,129,3,3,https://reqres.in/api/users?page=3,625,0,254
+1549009030237,1474,search for particular item,200,OK,peak load 1-3,text,true,,674,124,4,4,https://reqres.in/api/users/5,1474,0,0
+1549009030362,1900,browse category,200,OK,peak load 1-4,text,true,,983,129,4,4,https://reqres.in/api/users?page=3,1900,0,1427
+1549009033510,3684,search for particular item,200,OK,peak load 1-4,text,true,,674,124,6,6,https://reqres.in/api/users/5,3684,0,3311
+1549009033810,3556,browse category,200,OK,peak load 1-5,text,true,,983,129,6,6,https://reqres.in/api/users?page=3,3556,0,3198
+1549009036799,579,browse category,200,OK,peak load 1-6,text,true,,983,129,6,6,https://reqres.in/api/users?page=3,579,0,193
+1549009037756,1192,search for particular item,200,OK,peak load 1-5,text,true,,674,124,6,6,https://reqres.in/api/users/5,1192,0,217
+1549009038185,787,search for particular item,200,OK,peak load 1-6,text,true,,674,124,6,6,https://reqres.in/api/users/5,787,0,0
+1549009039215,624,browse category,200,OK,peak load 1-7,text,true,,983,129,7,7,https://reqres.in/api/users?page=3,624,0,268
+1549009040494,424,search for particular item,200,OK,peak load 1-7,text,true,,674,124,7,7,https://reqres.in/api/users/5,424,0,0
+1549009042165,635,browse category,200,OK,peak load 1-8,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,635,0,247
+1549009025495,11263,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-1,,true,,4519,1003,8,8,null,0,6117,0
+1549009025996,410,sign in,200,OK,peak load 1-1,text,true,,562,247,2,2,https://reqres.in/api/login,410,0,0
+1549009027588,355,browse category,200,OK,peak load 1-1,text,true,,983,129,3,3,https://reqres.in/api/users?page=3,355,0,140
+1549009029056,226,search for particular item,200,OK,peak load 1-1,text,true,,674,124,3,3,https://reqres.in/api/users/5,226,0,0
+1549009030611,9559,add to item shopping cart,201,Created,peak load 1-1,text,true,,643,250,7,7,https://reqres.in/api/users,9559,0,9139
+1549009040285,360,completing shipping information,200,OK,peak load 1-1,text,true,,674,124,7,7,https://reqres.in/api/users/5,360,0,134
+1549009042522,353,check out,200,OK,peak load 1-1,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,353,0,128
+1549009042876,212,forums,200,OK,peak load 1-1,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,212,0,0
+1549009043300,428,browse category,200,OK,peak load 1-1,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,428,0,215
+1549009026511,11727,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-2,,true,,4519,1003,8,8,null,0,5781,0
+1549009027012,523,sign in,200,OK,peak load 1-2,text,true,,562,247,3,3,https://reqres.in/api/login,523,0,139
+1549009028523,352,browse category,200,OK,peak load 1-2,text,true,,983,129,3,3,https://reqres.in/api/users?page=3,352,0,0
+1549009030515,9551,search for particular item,200,OK,peak load 1-2,text,true,,674,124,7,7,https://reqres.in/api/users/5,9551,0,9121
+1549009040443,503,add to item shopping cart,201,Created,peak load 1-2,text,true,,643,250,7,7,https://reqres.in/api/users,503,0,129
+1549009041011,350,completing shipping information,200,OK,peak load 1-2,text,true,,674,124,7,7,https://reqres.in/api/users/5,350,0,0
+1549009043572,448,check out,200,OK,peak load 1-2,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,448,0,177
+1549009044021,223,forums,200,OK,peak load 1-2,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,223,0,0
+1549009043888,364,search for particular item,200,OK,peak load 1-8,text,true,,674,124,8,8,https://reqres.in/api/users/5,364,0,0
+1549009031712,7396,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-3,,true,,4519,1003,8,8,null,0,5357,0
+1549009032210,1974,sign in,200,OK,peak load 1-3,text,true,,562,247,5,5,https://reqres.in/api/login,1974,0,207
+1549009035515,3860,browse category,200,OK,peak load 1-3,text,true,,983,129,7,7,https://reqres.in/api/users?page=3,3860,0,3507
+1549009039656,509,search for particular item,200,OK,peak load 1-3,text,true,,674,124,7,7,https://reqres.in/api/users/5,509,0,136
+1549009041592,360,add to item shopping cart,201,Created,peak load 1-3,text,true,,643,250,7,7,https://reqres.in/api/users,360,0,0
+1549009042911,343,completing shipping information,200,OK,peak load 1-3,text,true,,674,124,8,8,https://reqres.in/api/users/5,343,0,127
+1549009044116,350,check out,200,OK,peak load 1-3,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,350,0,0
+1549009044466,229,privacy policy,200,OK,peak load 1-3,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,229,0,0
+1549009044584,613,browse category,200,OK,peak load 1-2,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,613,0,234
+1549009044862,417,browse category,200,OK,peak load 1-3,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,417,0,194
+1549009045504,278,search for particular item,200,OK,peak load 1-2,text,true,,674,124,9,9,https://reqres.in/api/users/5,278,0,0
+1549009045783,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,9,9,null,0,0,0
+1549009045489,295,search for particular item,200,OK,peak load 1-3,text,true,,674,124,9,9,https://reqres.in/api/users/5,295,0,0
+1549009045785,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,9,9,null,0,0,0
+1549009038972,2177,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-6,,true,,4519,1003,9,9,null,0,4836,0
+1549009039473,565,sign in,200,OK,peak load 1-6,text,true,,562,247,7,7,https://reqres.in/api/login,565,0,140
+1549009040049,351,browse category,200,OK,peak load 1-6,text,true,,983,129,7,7,https://reqres.in/api/users?page=3,351,0,0
+1549009041836,440,search for particular item,200,OK,peak load 1-6,text,true,,674,124,8,8,https://reqres.in/api/users/5,439,0,198
+1549009042673,241,add to item shopping cart,201,Created,peak load 1-6,text,true,,643,250,8,8,https://reqres.in/api/users,241,0,0
+1549009043922,357,completing shipping information,200,OK,peak load 1-6,text,true,,674,124,8,8,https://reqres.in/api/users/5,357,0,131
+1549009045762,223,check out,200,OK,peak load 1-6,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,223,0,0
+1549009045785,216,forums,200,OK,peak load 1-3,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,216,0,0
+1549009045783,230,forums,200,OK,peak load 1-2,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,229,0,0
+1549009045506,567,search for particular item,200,OK,peak load 1-1,text,true,,674,124,9,9,https://reqres.in/api/users/5,567,0,199
+1549009046073,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,9,9,null,0,0,0
+1549009045985,352,privacy policy,200,OK,peak load 1-6,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,352,0,118
+1549009045798,595,browse category,200,OK,peak load 1-9,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,595,0,201
+1549009046073,351,forums,200,OK,peak load 1-1,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,351,0,0
+1549009046622,223,search for particular item,200,OK,peak load 1-9,text,true,,674,124,9,9,https://reqres.in/api/users/5,223,0,0
+1549009046441,444,browse category,200,OK,peak load 1-6,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,444,0,228
+1549009046584,428,browse category,200,OK,peak load 1-2,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,428,0,196
+1549009046702,434,browse category,200,OK,peak load 1-1,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,434,0,216
+1549009046938,215,search for particular item,200,OK,peak load 1-6,text,true,,674,124,9,9,https://reqres.in/api/users/5,215,0,0
+1549009047153,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,9,9,null,0,0,0
+1549009046871,427,browse category,200,OK,peak load 1-3,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,427,0,207
+1549009047153,217,forums,200,OK,peak load 1-6,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,217,0,0
+1549009047580,218,search for particular item,200,OK,peak load 1-2,text,true,,674,124,9,9,https://reqres.in/api/users/5,218,0,0
+1549009047799,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,9,9,null,0,0,0
+1549009047496,430,browse category,200,OK,peak load 1-6,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,430,0,191
+1549009047776,222,search for particular item,200,OK,peak load 1-3,text,true,,674,124,9,9,https://reqres.in/api/users/5,222,0,0
+1549009047998,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,9,9,null,0,0,0
+1549009047799,229,privacy policy,200,OK,peak load 1-2,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,229,0,0
+1549009047807,228,search for particular item,200,OK,peak load 1-1,text,true,,674,124,9,9,https://reqres.in/api/users/5,228,0,0
+1549009048035,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,9,9,null,0,0,0
+1549009047999,235,privacy policy,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,235,0,0
+1549009048035,393,privacy policy,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,393,0,0
+1549009048138,422,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,422,0,209
+1549009048527,438,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,438,0,218
+1549009048406,571,browse category,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,571,0,221
+1549009048734,349,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,349,0,0
+1549009049083,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009048942,223,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,223,0,0
+1549009049165,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009048774,431,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,431,0,203
+1549009049083,202,forums,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,202,0,0
+1549009049166,216,privacy policy,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,216,0,0
+1549009049475,219,search for particular item,200,OK,peak load 1-10,text,true,,674,124,10,10,https://reqres.in/api/users/5,219,0,0
+1549009049523,245,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,245,0,0
+1549009049769,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009049357,448,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,448,0,214
+1549009038948,2122,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-5,,true,,4518,1003,10,10,null,0,8824,0
+1549009039449,238,sign in,200,OK,peak load 1-5,text,true,,562,247,7,7,https://reqres.in/api/login,238,0,0
+1549009041132,370,browse category,200,OK,peak load 1-5,text,true,,983,129,7,7,https://reqres.in/api/users?page=3,370,0,156
+1549009043188,420,search for particular item,200,OK,peak load 1-5,text,true,,674,124,8,8,https://reqres.in/api/users/5,420,0,188
+1549009044775,231,add to item shopping cart,201,Created,peak load 1-5,text,true,,642,250,8,8,https://reqres.in/api/users,230,0,0
+1549009048121,505,completing shipping information,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,505,0,125
+1549009049535,358,check out,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,358,0,0
+1549009049769,230,forums,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,230,0,0
+1549009049847,217,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,217,0,0
+1549009050065,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009049894,209,privacy policy,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,209,0,0
+1549009049692,412,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,412,0,201
+1549009050065,223,forums,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,223,0,0
+1549009050142,211,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,211,0,0
+1549009050353,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009050353,203,forums,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,203,0,0
+1549009050211,353,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,353,0,0
+1549009050564,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009050184,420,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,420,0,216
+1549009044252,2241,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-8,,true,,4519,1003,10,10,null,0,4141,0
+1549009044753,390,sign in,200,OK,peak load 1-8,text,true,,562,247,9,9,https://reqres.in/api/login,390,0,134
+1549009045557,384,browse category,200,OK,peak load 1-8,text,true,,983,129,9,9,https://reqres.in/api/users?page=3,384,0,0
+1549009046767,377,search for particular item,200,OK,peak load 1-8,text,true,,674,124,9,9,https://reqres.in/api/users/5,377,0,142
+1549009047719,227,add to item shopping cart,201,Created,peak load 1-8,text,true,,643,250,9,9,https://reqres.in/api/users,227,0,0
+1549009049062,494,completing shipping information,200,OK,peak load 1-8,text,true,,674,124,10,10,https://reqres.in/api/users/5,494,0,124
+1549009050264,369,check out,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,369,0,0
+1549009050255,429,browse category,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,429,0,203
+1549009050564,210,etsy blog,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,210,0,0
+1549009050633,219,etsy blog,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,219,0,0
+1549009050294,606,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,606,0,220
+1549009037194,3410,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-4,,true,,4519,1003,10,10,null,0,10449,0
+1549009037689,1190,sign in,200,OK,peak load 1-4,text,true,,562,247,6,6,https://reqres.in/api/login,1190,0,283
+1549009040128,585,browse category,200,OK,peak load 1-4,text,true,,983,129,7,7,https://reqres.in/api/users?page=3,585,0,131
+1549009044731,373,search for particular item,200,OK,peak load 1-4,text,true,,674,124,9,9,https://reqres.in/api/users/5,373,0,157
+1549009045586,215,add to item shopping cart,201,Created,peak load 1-4,text,true,,643,250,9,9,https://reqres.in/api/users,215,0,0
+1549009047199,540,completing shipping information,200,OK,peak load 1-4,text,true,,674,124,9,9,https://reqres.in/api/users/5,540,0,137
+1549009050544,507,check out,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,507,0,129
+1549009050869,216,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,216,0,0
+1549009051085,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009050689,443,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,443,0,211
+1549009051085,206,etsy blog,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,206,0,0
+1549009051053,361,privacy policy,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,361,0,0
+1549009050876,598,browse category,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,598,0,228
+1549009051247,445,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,445,0,226
+1549009051522,228,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,228,0,0
+1549009051751,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009051691,240,search for particular item,200,OK,peak load 1-8,text,true,,674,124,10,10,https://reqres.in/api/users/5,240,0,0
+1549009051932,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-8,,true,,0,0,10,10,null,0,0,0
+1549009051751,223,forums,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,223,0,0
+1549009051359,635,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,635,0,267
+1549009051932,272,forums,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,272,0,0
+1549009052065,368,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,368,0,0
+1549009052433,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009052117,316,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,316,0,0
+1549009052434,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009040918,2252,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-7,,true,,4519,1003,10,10,null,0,9395,0
+1549009041418,353,sign in,200,OK,peak load 1-7,text,true,,562,247,7,7,https://reqres.in/api/login,353,0,135
+1549009043717,489,browse category,200,OK,peak load 1-7,text,true,,983,129,8,8,https://reqres.in/api/users?page=3,489,0,114
+1549009047073,345,search for particular item,200,OK,peak load 1-7,text,true,,674,124,9,9,https://reqres.in/api/users/5,345,0,127
+1549009048842,210,add to item shopping cart,201,Created,peak load 1-7,text,true,,643,250,10,10,https://reqres.in/api/users,210,0,0
+1549009051392,498,completing shipping information,200,OK,peak load 1-7,text,true,,674,124,10,10,https://reqres.in/api/users/5,498,0,128
+1549009052207,357,check out,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,357,0,0
+1549009052434,226,privacy policy,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,226,0,0
+1549009052481,236,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,236,0,0
+1549009052717,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009052244,473,browse category,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,473,0,264
+1549009052564,213,privacy policy,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,213,0,0
+1549009052434,365,forums,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,365,0,140
+1549009052406,487,search for particular item,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,487,0,129
+1549009052894,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-5,,true,,0,0,10,10,null,0,0,0
+1549009052243,687,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,687,0,266
+1549009052717,217,etsy blog,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,217,0,0
+1549009052032,921,browse category,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,921,0,380
+1549009052894,228,privacy policy,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,228,0,0
+1549009053271,226,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,226,0,0
+1549009053497,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009053124,479,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,479,0,229
+1549009053142,487,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,487,0,230
+1549009053497,362,forums,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,362,0,0
+1549009053282,591,browse category,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,591,0,215
+1549009053729,238,search for particular item,200,OK,peak load 1-4,text,true,,674,124,10,10,https://reqres.in/api/users/5,238,0,0
+1549009053967,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-4,,true,,0,0,10,10,null,0,0,0
+1549009053602,411,browse category,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,411,0,201
+1549009053687,423,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,423,0,192
+1549009053863,256,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,256,0,0
+1549009054120,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009053967,259,privacy policy,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,259,0,0
+1549009054120,288,forums,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,288,0,0
+1549009054242,238,search for particular item,200,OK,peak load 1-8,text,true,,674,124,10,10,https://reqres.in/api/users/5,238,0,0
+1549009054481,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-8,,true,,0,0,10,10,null,0,0,0
+1549009054294,268,search for particular item,200,OK,peak load 1-7,text,true,,674,124,10,10,https://reqres.in/api/users/5,268,0,0
+1549009054563,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-7,,true,,0,0,10,10,null,0,0,0
+1549009054348,227,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,227,0,0
+1549009054575,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009054054,568,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,568,0,286
+1549009054576,232,forums,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,232,0,0
+1549009054563,279,privacy policy,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,279,0,0
+1549009054413,507,browse category,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,507,0,250
+1549009054446,520,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,520,0,292
+1549009054748,219,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,219,0,0
+1549009054968,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009054481,569,privacy policy,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,569,0,174
+1549009054912,216,search for particular item,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,216,0,0
+1549009055128,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-5,,true,,0,0,10,10,null,0,0,0
+1549009054968,240,etsy blog,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,240,0,0
+1549009055128,253,forums,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,253,0,0
+1549009055173,215,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,215,0,0
+1549009055388,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009055195,207,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,207,0,0
+1549009055402,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009054920,522,browse category,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,522,0,308
+1549009054893,700,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,700,0,326
+1549009055403,204,etsy blog,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,204,0,0
+1549009055388,227,forums,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,227,0,0
+1549009049694,1782,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-10,,true,,4519,1003,10,10,null,0,4157,0
+1549009050195,221,sign in,200,OK,peak load 1-10,text,true,,562,247,10,10,https://reqres.in/api/login,221,0,0
+1549009051299,376,browse category,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,376,0,126
+1549009052967,224,search for particular item,200,OK,peak load 1-10,text,true,,674,124,10,10,https://reqres.in/api/users/5,224,0,0
+1549009053865,404,add to item shopping cart,201,Created,peak load 1-10,text,true,,643,250,10,10,https://reqres.in/api/users,404,0,165
+1549009054431,253,completing shipping information,200,OK,peak load 1-10,text,true,,674,124,10,10,https://reqres.in/api/users/5,253,0,0
+1549009055329,304,check out,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,304,0,0
+1549009055633,235,etsy blog,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,235,0,0
+1549009055489,443,browse category,200,OK,peak load 1-8,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,443,0,230
+1549009055672,271,search for particular item,200,OK,peak load 1-7,text,true,,674,124,10,10,https://reqres.in/api/users/5,271,0,0
+1549009055943,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-7,,true,,0,0,10,10,null,0,0,0
+1549009055879,215,search for particular item,200,OK,peak load 1-4,text,true,,674,124,10,10,https://reqres.in/api/users/5,215,0,0
+1549009056094,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-4,,true,,0,0,10,10,null,0,0,0
+1549009055944,226,etsy blog,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,226,0,0
+1549009055705,469,browse category,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,469,0,243
+1549009055799,470,browse category,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,470,0,236
+1549009055810,460,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,460,0,225
+1549009056094,225,privacy policy,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,225,0,0
+1549009056076,438,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,438,0,214
+1549009056269,437,browse category,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,437,0,200
+1549009056295,412,browse category,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,412,0,204
+1549009056686,224,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,224,0,0
+1549009056910,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009056757,218,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,218,0,0
+1549009056975,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009056954,212,search for particular item,200,OK,peak load 1-2,text,true,,674,124,10,10,https://reqres.in/api/users/5,212,0,0
+1549009057166,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-2,,true,,0,0,10,10,null,0,0,0
+1549009056975,226,forums,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,226,0,0
+1549009056983,248,search for particular item,200,OK,peak load 1-7,text,true,,674,124,10,10,https://reqres.in/api/users/5,248,0,0
+1549009057232,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-7,,true,,0,0,10,10,null,0,0,0
+1549009056910,351,privacy policy,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,351,0,126
+1549009057029,241,search for particular item,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,241,0,0
+1549009057271,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-5,,true,,0,0,10,10,null,0,0,0
+1549009056949,415,browse category,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,415,0,198
+1549009057166,211,privacy policy,200,OK,peak load 1-2,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,211,0,0
+1549009046845,1981,logged user shopping,200,"Number of samples in transaction : 6, number of failing samples : 0",peak load 1-9,,true,,4519,1003,10,10,null,0,8570,0
+1549009047345,238,sign in,200,OK,peak load 1-9,text,true,,562,247,9,9,https://reqres.in/api/login,238,0,0
+1549009050240,349,browse category,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,348,0,136
+1549009054797,421,search for particular item,200,OK,peak load 1-9,text,true,,674,124,10,10,https://reqres.in/api/users/5,421,0,184
+1549009055886,220,add to item shopping cart,201,Created,peak load 1-9,text,true,,643,250,10,10,https://reqres.in/api/users,220,0,0
+1549009056447,259,completing shipping information,200,OK,peak load 1-9,text,true,,674,124,10,10,https://reqres.in/api/users/5,259,0,0
+1549009056901,494,check out,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,494,0,128
+1549009057258,205,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,205,0,0
+1549009057463,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009057271,215,forums,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,215,0,0
+1549009057232,372,privacy policy,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,372,0,0
+1549009057395,232,privacy policy,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,232,0,0
+1549009057464,214,privacy policy,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,214,0,0
+1549009057224,463,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,463,0,219
+1549009057628,225,search for particular item,200,OK,peak load 1-10,text,true,,674,124,10,10,https://reqres.in/api/users/5,225,0,0
+1549009057854,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-10,,true,,0,0,10,10,null,0,0,0
+1549009057472,445,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,445,0,211
+1549009057764,222,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,222,0,0
+1549009057986,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009057854,213,privacy policy,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,213,0,0
+1549009057986,222,forums,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,222,0,0
+1549009057831,441,browse category,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,441,0,224
+1549009058157,217,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,217,0,0
+1549009058374,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009058037,420,browse category,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,420,0,195
+1549009058102,429,browse category,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,429,0,211
+1549009058317,222,search for particular item,200,OK,peak load 1-4,text,true,,674,124,10,10,https://reqres.in/api/users/5,222,0,0
+1549009058539,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-4,,true,,0,0,10,10,null,0,0,0
+1549009058102,444,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,444,0,212
+1549009058375,258,etsy blog,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,258,0,0
+1549009058540,233,etsy blog,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,233,0,0
+1549009058410,438,browse category,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,438,0,219
+1549009058483,413,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,413,0,202
+1549009058715,225,search for particular item,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,225,0,0
+1549009058940,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-5,,true,,0,0,10,10,null,0,0,0
+1549009058933,211,search for particular item,200,OK,peak load 1-7,text,true,,674,124,10,10,https://reqres.in/api/users/5,211,0,0
+1549009059144,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-7,,true,,0,0,10,10,null,0,0,0
+1549009058941,231,privacy policy,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,231,0,0
+1549009059145,234,etsy blog,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,234,0,0
+1549009058942,458,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,458,0,220
+1549009059124,301,search for particular item,200,OK,peak load 1-10,text,true,,674,124,10,10,https://reqres.in/api/users/5,301,0,0
+1549009059425,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-10,,true,,0,0,10,10,null,0,0,0
+1549009059290,227,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,227,0,0
+1549009059517,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-6,,true,,0,0,10,10,null,0,0,0
+1549009059408,212,search for particular item,200,OK,peak load 1-1,text,true,,674,124,10,10,https://reqres.in/api/users/5,212,0,0
+1549009059621,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-1,,true,,0,0,10,10,null,0,0,0
+1549009059518,225,etsy blog,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,225,0,0
+1549009059363,441,browse category,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,441,0,218
+1549009059375,437,browse category,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,437,0,219
+1549009059425,391,forums,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,391,0,0
+1549009059590,229,search for particular item,200,OK,peak load 1-9,text,true,,674,124,10,10,https://reqres.in/api/users/5,229,0,0
+1549009059819,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-9,,true,,0,0,10,10,null,0,0,0
+1549009059621,214,forums,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,214,0,0
+1549009059532,434,browse category,200,OK,peak load 1-7,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,434,0,219
+1549009059819,209,forums,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,209,0,0
+1549009060067,216,search for particular item,200,OK,peak load 1-3,text,true,,674,124,10,10,https://reqres.in/api/users/5,216,0,0
+1549009060283,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-3,,true,,0,0,10,10,null,0,0,0
+1549009059941,446,browse category,200,OK,peak load 1-6,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,446,0,231
+1549009060199,207,search for particular item,200,OK,peak load 1-5,text,true,,674,124,10,10,https://reqres.in/api/users/5,207,0,0
+1549009060406,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-5,,true,,0,0,10,10,null,0,0,0
+1549009060283,227,forums,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,227,0,0
+1549009060191,414,browse category,200,OK,peak load 1-1,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,414,0,196
+1549009060406,217,privacy policy,200,OK,peak load 1-5,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,217,0,0
+1549009060521,218,search for particular item,200,OK,peak load 1-4,text,true,,674,124,10,10,https://reqres.in/api/users/5,218,0,0
+1549009060740,0,logged user shopping,200,"Number of samples in transaction : 0, number of failing samples : 0",peak load 1-4,,true,,0,0,10,10,null,0,0,0
+1549009060469,426,browse category,200,OK,peak load 1-10,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,426,0,214
+1549009060517,437,browse category,200,OK,peak load 1-3,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,437,0,214
+1549009060740,230,forums,200,OK,peak load 1-4,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,230,0,0
+1549009060580,440,browse category,200,OK,peak load 1-9,text,true,,983,129,10,10,https://reqres.in/api/users?page=3,440,0,230
+1549009060831,286,search for particular item,200,OK,peak load 1-6,text,true,,674,124,10,10,https://reqres.in/api/users/5,286,0,0
+1549009060957,210,search for particular item,200,OK,peak load 1-10,text,true,,674,124,9,9,https://reqres.in/api/users/5,210,0,0
+1549009061056,230,search for particular item,200,OK,peak load 1-7,text,true,,674,124,8,8,https://reqres.in/api/users/5,230,0,0
+1549009061092,217,search for particular item,200,OK,peak load 1-1,text,true,,674,124,7,7,https://reqres.in/api/users/5,217,0,0
+1549009061092,228,search for particular item,200,OK,peak load 1-3,text,true,,674,124,6,6,https://reqres.in/api/users/5,228,0,0
+1549009060987,423,browse category,200,OK,peak load 1-4,text,true,,983,129,5,5,https://reqres.in/api/users?page=3,423,0,208
+1549009061092,385,search for particular item,200,OK,peak load 1-9,text,true,,674,124,4,4,https://reqres.in/api/users/5,385,0,0
+1549009061083,421,browse category,200,OK,peak load 1-5,text,true,,983,129,3,3,https://reqres.in/api/users?page=3,421,0,200
+1549009057363,5905,search for particular item,200,OK,peak load 1-8,text,true,,674,124,2,2,https://reqres.in/api/users/5,5905,0,0
+1549009058630,5284,browse category,200,OK,peak load 1-2,text,true,,983,129,1,1,https://reqres.in/api/users?page=3,5284,0,207
