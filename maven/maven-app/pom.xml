@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>qa.upskilling.maven</groupId>
+    <artifactId>maven-app</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>selenium</module>
+        <module>cucumber</module>
+    </modules>
+    <name>maven-app</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <selenium.api.version>3.11.0</selenium.api.version>
+        <io.cucumber.version>3.0.2</io.cucumber.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>selenium-api</artifactId>
+                <version>${selenium.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.cucumber</groupId>
+                <artifactId>cucumber-core</artifactId>
+                <version>${io.cucumber.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
