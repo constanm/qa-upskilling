@@ -1,6 +1,5 @@
 package basics;
 
-import objects.webtestsbase.WebDriverFactory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -44,7 +43,7 @@ public class LocatorsTest extends DriverBase {
         driver.findElement(By.name("search_query")).sendKeys("dress");
 
         // Take a screenshot as proof
-        WebDriverFactory.takeScreenShot("DressWasSearched");
+        DriverBase.takesScreenShot("testByName", "DressWasSearched");
     }
 
     @Test
@@ -54,7 +53,7 @@ public class LocatorsTest extends DriverBase {
         // Pause execution of program up to 5 seconds for the page to load
         Thread.sleep(5000);
 
-        WebDriverFactory.takeScreenShot("Contact");
+        DriverBase.takesScreenShot("testByPartialLinkedText", "Contact");
     }
 
     @Test
@@ -65,7 +64,7 @@ public class LocatorsTest extends DriverBase {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(d -> d.findElement(By.id("email_create")));
 
-        WebDriverFactory.takeScreenShot("SignIn");
+        DriverBase.takesScreenShot("testByLinkedText", "SignIn");
     }
 
     @Test
