@@ -116,7 +116,7 @@
                 </includes>
                 <testFailureIgnore>true</testFailureIgnore>
                 <systemPropertyVariables>
-                        <isHeadless>${isHeadless}</isHeadless>
+                    <isHeadless>${isHeadless}</isHeadless>
                     <chromeDriverBinaryPath>${chromeDriverBinaryPath}</chromeDriverBinaryPath>
                 </systemPropertyVariables>
             </configuration>
@@ -144,7 +144,6 @@
                         <projectName>Cucumber example</projectName>
                         <inputDirectory>target/cucumber-reports</inputDirectory>
                         <outputDirectory>target/cucumber-reports</outputDirectory>
-                        <parallelTesting>false</parallelTesting>
                         <buildNumber>1</buildNumber>
                         <jsonFiles>
                             <param>**/*.json</param>
