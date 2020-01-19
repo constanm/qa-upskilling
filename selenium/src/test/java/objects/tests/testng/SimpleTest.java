@@ -3,13 +3,14 @@ package objects.tests.testng;
 import objects.tests.testng.listeners.ScreenShotOnFailListener;
 import objects.webtestsbase.WebDriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Uses TestNG test framework
@@ -24,14 +25,16 @@ public class SimpleTest {
     }
 
     @Test
-    public void testFillForm() {
+    public void testFillForm() throws InterruptedException {
         String toSearch = "Selenium";
-        WebDriverFactory.getDriver().get("http://www.youtube.com");
-        WebElement searchString = WebDriverFactory.getDriver().findElement(By.cssSelector("#masthead-search-term"));
-        searchString.sendKeys(toSearch);
-        String searchStringText = searchString.getAttribute("value");
-        assertTrue("Text from page(" + searchStringText + ") not equals to text from test(" + toSearch + ")",
-                searchStringText.equals(toSearch));
+        WebDriverFactory.getDriver().get("http://www.google.com");
+        WebElement searchBox = WebDriverFactory.getDriver().findElement(By.name("q"));
+        searchBox.sendKeys(toSearch);
+        searchBox.sendKeys(Keys.ENTER);
+
+        Thread.sleep(2000);
+
+        assertEquals("Kaboom!", toSearch + " - Google Search", WebDriverFactory.getDriver().getTitle());
     }
 
     @AfterTest

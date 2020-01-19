@@ -1,5 +1,6 @@
 package utils;
 
+import objects.configuration.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -8,7 +9,7 @@ public class DriverFactory {
 
     WebDriver getDriver() {
         if (null == webDriver) {
-            System.setProperty("webdriver.chrome.driver", "D:\\WORK\\SELENIUM\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", Configuration.getConfig().getChromedriver());
             webDriver = new ChromeDriver();
         }
         return webDriver;

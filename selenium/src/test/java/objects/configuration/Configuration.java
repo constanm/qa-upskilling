@@ -32,6 +32,12 @@ public class Configuration {
     @Property("webdriver")
     private String webdriver = "";
 
+    @Property("webdriver.gecko.driver")
+    private String geckodriver = "";
+
+    @Property("webdriver.chrome.driver")
+    private String chromedriver = "";
+
     @Property("screenshot.directory")
     private String screenshotsDirectory = "";
 
@@ -97,5 +103,13 @@ public class Configuration {
 
     public void setFirefoxBinary(String firefoxBinary) {
         this.firefoxBinary = firefoxBinary;
+    }
+
+    public String getGeckodriver() {
+        return geckodriver;
+    }
+
+    public String getChromedriver() {
+        return chromedriver;
     }
 }

@@ -6,15 +6,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.LoadableComponent;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static loadable.pages.BasePage.myElementIsClickable;
 import static org.testng.Assert.assertTrue;
 
 public class LoginPage extends LoadableComponent<LoginPage> {
 
+    private By usernameBy = By.id("email");
+    private By passwordBy = By.id("passwd");
+    private By loginButtonBy = By.id("SubmitLogin");
+    private By errorMessage = By.cssSelector("#center_column > div.alert.alert-danger > ol > li");
     private WebDriver driver;
     private WebDriverWait wait;
     private BasePage page;
     private LoadableComponent<HomePage> parent;
-    private final String loginURL = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
 
     public LoginPage(WebDriver driver, LoadableComponent<HomePage> parent) {
         this.driver = driver;
@@ -22,11 +26,6 @@ public class LoginPage extends LoadableComponent<LoginPage> {
         page = new BasePage(this.driver);
         this.parent = parent;
     }
-
-    By usernameBy = By.id("email");
-    By passwordBy = By.id("passwd");
-    By loginButtonBy = By.id("SubmitLogin");
-    By errorMessage = By.cssSelector("#center_column > div.alert.alert-danger > ol > li");
 
     @Override
     protected void load() {
@@ -36,7 +35,7 @@ public class LoginPage extends LoadableComponent<LoginPage> {
     //We need to check that the page has been loaded.
     @Override
     protected void isLoaded() throws Error {
-        assertTrue(driver.getCurrentUrl().contains(loginURL), "LoginPage is not loaded!");
+        assertTrue(myElementIsClickable(usernameBy), "LoginPage is not loaded!");
     }
 
     //How to improve with Fluent API?

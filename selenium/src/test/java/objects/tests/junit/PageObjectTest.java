@@ -32,7 +32,7 @@ public class PageObjectTest {
         String toSearch = "Selenium";
 
         GoogleSearchPage googleSearchPage = new PageGenerator(WebDriverFactory.getDriver()).getInstance(GoogleSearchPage.class);
-        GoogleSearchResultsPage googleSearchResultsPage = googleSearchPage.searchFor("Selenium");
+        GoogleSearchResultsPage googleSearchResultsPage = googleSearchPage.searchFor(toSearch);
         SeleniumHqPage seleniumHqPage = googleSearchResultsPage.clickOnFirstHit();
 
         // ouch Submit vs Go!

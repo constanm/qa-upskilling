@@ -19,10 +19,10 @@ public class DownloadTest {
 
     @BeforeAll
     public static void beforeAll() {
-        System.setProperty("webdriver.chrome.driver", "D:\\WORK\\SELENIUM\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", Configuration.getConfig().getChromedriver());
 
-        System.setProperty("webdriver.gecko.driver", "D:\\WORK\\SELENIUM\\geckodriver.exe");
-        System.setProperty("webdriver.firefox.bin", "D:\\PROGRAME\\ff5010\\firefox.exe");
+        System.setProperty("webdriver.gecko.driver", Configuration.getConfig().getGeckodriver());
+        System.setProperty("webdriver.firefox.bin", Configuration.getConfig().getFirefoxBinary());
 
         myDownloadFolder = Configuration.getConfig().getDownloadDirectory();
     }

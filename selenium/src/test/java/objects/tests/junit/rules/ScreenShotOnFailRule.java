@@ -7,7 +7,7 @@ import org.junit.runners.model.Statement;
 
 /**
  * This class represents a rule - junit mechanism for adding awesome functionality in test running process.
- * This rule adds screenshot taking when test  fails
+ * This rule adds screenshot taking when test fails
  */
 public class ScreenShotOnFailRule implements TestRule {
 

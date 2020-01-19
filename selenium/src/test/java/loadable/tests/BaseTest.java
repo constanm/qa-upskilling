@@ -1,5 +1,6 @@
 package loadable.tests;
 
+import objects.configuration.Configuration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,7 +14,7 @@ public class BaseTest {
     @BeforeClass(description = "Class Level Setup!")
     public void classLevelSetup() {
         //Create a Chrome driver. All test classes from this package use this.
-        System.setProperty("webdriver.chrome.driver", "D:\\WORK\\SELENIUM\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", Configuration.getConfig().getChromedriver());
         driver = new ChromeDriver();
 
         //Create a wait. All test classes use this.

@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import static org.junit.Assert.assertEquals;
@@ -15,10 +16,14 @@ import static org.junit.Assert.assertEquals;
  * Uses JUnit4 test framework
  * Test demonstrates simple webdriver functions : how to start browser, open url, insert some text and check that this text was inserted
  */
-//todo: Junit 5?
 public class SimpleTest {
     @Rule
     public ScreenShotOnFailRule screenShotOnFailRule = new ScreenShotOnFailRule();
+
+    @AfterClass
+    public static void afterClass() {
+        WebDriverFactory.finishBrowser();
+    }
 
     @Before
     public void beforeTest() {
@@ -26,19 +31,16 @@ public class SimpleTest {
     }
 
     @Test
-    public void testFillForm() {
-        // ouch, failing
+    public void testFillForm() throws InterruptedException {
         String toSearch = "Selenium";
-        WebDriverFactory.getDriver().get("http://www.youtube.com");
-        WebElement searchString = WebDriverFactory.getDriver().findElement(By.cssSelector("#masthead-search-term"));
-        searchString.sendKeys(toSearch);
-        String searchStringText = searchString.getAttribute("value");
-        assertEquals("Text from page(" + searchStringText + ") not equals to text from test(" + toSearch + ")", searchStringText, toSearch);
-    }
+        WebDriverFactory.getDriver().get("http://www.google.com");
+        WebElement searchBox = WebDriverFactory.getDriver().findElement(By.name("q"));
+        searchBox.sendKeys(toSearch);
+        searchBox.sendKeys(Keys.ENTER);
 
-    @AfterClass
-    public static void afterClass() {
-        WebDriverFactory.finishBrowser();
+        Thread.sleep(2000);
+
+        assertEquals("Kaboom!", toSearch + " - Google Search", WebDriverFactory.getDriver().getTitle());
     }
 
 }

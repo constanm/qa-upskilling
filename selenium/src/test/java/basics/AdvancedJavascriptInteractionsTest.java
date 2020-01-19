@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.DriverBase;
 
 import java.util.Collections;
@@ -115,10 +117,12 @@ public class AdvancedJavascriptInteractionsTest extends DriverBase {
     @Test
     public void testRightClick() {
         driver.findElement(By.linkText("Contact us")).click();
-        WebElement elem = driver.findElement(By.id("message"));
+
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
+        WebElement elem = webDriverWait.until(ExpectedConditions.elementToBeClickable(By.id("message")));
 
         Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
-        if (caps.getBrowserName() == "firefox") {
+        if ("firefox".equals(caps.getBrowserName())) {
             Actions builder = new Actions(driver);
             builder.contextClick(elem)
                     .sendKeys(Keys.DOWN)

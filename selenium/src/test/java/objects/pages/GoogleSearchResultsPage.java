@@ -21,7 +21,7 @@ public class GoogleSearchResultsPage extends BasePage {
     }
 
     public SeleniumHqPage clickOnFirstHit() {
-        wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText("Web Browser Automation")));
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Selenium")));
         firstHit.click();
         return PageFactory.initElements(WebDriverFactory.getDriver(), SeleniumHqPage.class);
     }
