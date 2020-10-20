@@ -3,7 +3,7 @@ package objects.tests.junit;
 import objects.pages.GoogleSearchPage;
 import objects.pages.GoogleSearchResultsPage;
 import objects.pages.PageGenerator;
-import objects.pages.SeleniumHqPage;
+import objects.pages.SeleniumDevPage;
 import objects.tests.junit.rules.ScreenShotOnFailRule;
 import objects.webtestsbase.WebDriverFactory;
 import org.junit.AfterClass;
@@ -11,7 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Uses JUnit test framework
@@ -33,10 +33,9 @@ public class PageObjectTest {
 
         GoogleSearchPage googleSearchPage = new PageGenerator(WebDriverFactory.getDriver()).getInstance(GoogleSearchPage.class);
         GoogleSearchResultsPage googleSearchResultsPage = googleSearchPage.searchFor(toSearch);
-        SeleniumHqPage seleniumHqPage = googleSearchResultsPage.clickOnFirstHit();
+        SeleniumDevPage seleniumDevPage = googleSearchResultsPage.clickOnFirstHit();
 
-        // ouch Submit vs Go!
-        assertEquals("Wrong text on Submit button", "Submit", seleniumHqPage.getSubmit().getAttribute("value"));
+        assertTrue("Missing Blog link", seleniumDevPage.getBlogLink().isDisplayed());
     }
 
     @AfterClass

@@ -5,6 +5,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.Augmenter;
@@ -14,6 +15,8 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -57,7 +60,24 @@ public class WebDriverFactory {
                         driver = new FirefoxDriver(CapabilitiesGenerator.getDefaultCapabilities(Browser.FIREFOX));
                         break;
                     case CHROME:
-                        driver = new ChromeDriver(CapabilitiesGenerator.getDefaultCapabilities(Browser.CHROME));
+                        System.setProperty("webdriver.chrome.driver", Configuration.getConfig().getChromedriver());
+                        ChromeOptions options = new ChromeOptions();
+                        // Proxy proxy = new Proxy();
+                        // proxy.setHttpProxy("myhttpproxy:3337");
+                        // options.setCapability("proxy", proxy);
+                        // options.addArguments("--headless");
+                        // options.addArguments("--disable-gpu");
+                        // options.setAcceptInsecureCerts(true);
+                        // options.addArguments("--allow-insecure-localhost");
+                        // options.addArguments("--lang=ro-RO");
+                        options.addArguments("--start-maximized");
+
+                        // another way to set up download directory
+                        Map<String, Object> prefs = new HashMap<>();
+                        prefs.put("download.default_directory", Configuration.getConfig().getDownloadDirectory());
+                        options.setExperimentalOption("prefs", prefs);
+
+                        driver = new ChromeDriver(options);
                         break;
                     case IE10:
                         driver = new InternetExplorerDriver(CapabilitiesGenerator.getDefaultCapabilities(Browser.IE10));

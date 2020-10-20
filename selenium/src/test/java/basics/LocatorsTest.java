@@ -14,6 +14,7 @@ import utils.DriverBase;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+//Note: some tests may fail. Come back after Waits..
 public class LocatorsTest extends DriverBase {
     private static WebDriver driver;
 
@@ -115,7 +116,7 @@ public class LocatorsTest extends DriverBase {
 
     @Test
     public void testByClassName() {
-        assertTrue(driver.findElement(By.className("sf-with-ul")).getTagName().equals("a"));
+        assertEquals("a", driver.findElement(By.className("sf-with-ul")).getTagName());
 
         // the below will return error "Compound class names not permitted"
         // assertTrue(driver.findElement(By.className("sf-menu clearfix menu-content sf-js-enabled sf-arrows")).tagName.equals("a"));

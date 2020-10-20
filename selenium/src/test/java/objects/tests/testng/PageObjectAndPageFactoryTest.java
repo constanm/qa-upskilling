@@ -3,7 +3,7 @@ package objects.tests.testng;
 import objects.pages.GoogleSearchPage;
 import objects.pages.GoogleSearchResultsPage;
 import objects.pages.PageGenerator;
-import objects.pages.SeleniumHqPage;
+import objects.pages.SeleniumDevPage;
 import objects.tests.testng.listeners.ScreenShotOnFailListener;
 import objects.webtestsbase.WebDriverFactory;
 import org.testng.annotations.AfterTest;
@@ -11,9 +11,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -38,10 +35,10 @@ public class PageObjectAndPageFactoryTest {
         // initializes the Google page results
         GoogleSearchResultsPage googleSearchResultsPage = googleSearchPage.searchFor(toSearch);
         // clicks on first hit and checks page title
-        SeleniumHqPage seleniumHqPage = googleSearchResultsPage.clickOnFirstHit();
+        SeleniumDevPage seleniumDevPage = googleSearchResultsPage.clickOnFirstHit();
 
-        //checks that the submit button's text is Go
-        assertThat("Unexpected first hit Go button", seleniumHqPage.getSubmit().getAttribute("value"), is(equalTo("Go")));
+        //checks that the Blog link is present
+        assertTrue("Missing Blog link", seleniumDevPage.getBlogLink().isDisplayed());
     }
 
     @AfterTest

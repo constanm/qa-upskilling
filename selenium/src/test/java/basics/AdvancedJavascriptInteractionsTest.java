@@ -82,7 +82,8 @@ public class AdvancedJavascriptInteractionsTest extends DriverBase {
 
     @Test
     public void testPasteLargeTextInTextArea() {
-        driver.findElement(By.linkText("Contact us")).click();
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
+        webDriverWait.until(ExpectedConditions.elementToBeClickable(By.linkText("Contact us"))).click();
 
         long millis = System.currentTimeMillis();
         String longText = String.join("", Collections.nCopies(500, "*"));
@@ -101,7 +102,9 @@ public class AdvancedJavascriptInteractionsTest extends DriverBase {
     @Test
     public void testDoubleClick() {
         driver.findElement(By.linkText("Contact us")).click();
-        WebElement elem = driver.findElement(By.id("message"));
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
+        WebElement elem = webDriverWait.until(ExpectedConditions.elementToBeClickable(By.id("message")));
+
         Actions builder = new Actions(driver);
         builder.doubleClick(elem).perform();
     }
@@ -109,7 +112,9 @@ public class AdvancedJavascriptInteractionsTest extends DriverBase {
     @Test
     public void testMouseOver() {
         driver.findElement(By.linkText("Contact us")).click();
-        WebElement elem = driver.findElement(By.id("message"));
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
+        WebElement elem = webDriverWait.until(ExpectedConditions.elementToBeClickable(By.id("message")));
+
         Actions builder = new Actions(driver);
         builder.moveToElement(elem).perform();
     }

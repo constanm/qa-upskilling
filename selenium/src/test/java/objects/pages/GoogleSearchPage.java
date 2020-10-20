@@ -18,6 +18,7 @@ public class GoogleSearchPage extends BasePage {
         if (!title.equals("Google")) {
             throw new WrongPageException("Incorrect page title for Google: " + title);
         }
+        // todo: fix consent
     }
 
     public GoogleSearchResultsPage searchFor(String text) {

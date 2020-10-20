@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class GoogleSearchResultsPage extends BasePage {
-    @FindBy(partialLinkText = "Web Browser Automation")
+    @FindBy(partialLinkText = "Selenium WebDriver")
     private WebElement firstHit;
 
     public GoogleSearchResultsPage(WebDriver driver) {
@@ -20,9 +20,9 @@ public class GoogleSearchResultsPage extends BasePage {
         }
     }
 
-    public SeleniumHqPage clickOnFirstHit() {
-        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Selenium")));
+    public SeleniumDevPage clickOnFirstHit() {
+        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Selenium WebDriver")));
         firstHit.click();
-        return PageFactory.initElements(WebDriverFactory.getDriver(), SeleniumHqPage.class);
+        return PageFactory.initElements(WebDriverFactory.getDriver(), SeleniumDevPage.class);
     }
 }

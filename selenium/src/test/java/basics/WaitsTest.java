@@ -73,17 +73,18 @@ public class WaitsTest extends DriverBase {
 
     @Test
     public void testWaitUsingJQueryActiveFlag() throws InterruptedException {
-        driver.get("http://fiddle.jshell.net/GRMule/WQXXT/show/");
+        driver.get("https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_ajax");
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
         // Wait for DOM load
         wait.until(driver1 -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
 
-        driver.switchTo().frame(0);
+        driver.findElement(By.id("accept-choices")).click();
 
-        wait.until(d -> d.findElement(By.partialLinkText("success"))).click();
+        driver.switchTo().frame("iframeResult");
 
+        wait.until(d -> d.findElement(By.tagName("button"))).click();
         //Wait for ajax complete
         while (true) {
             boolean ajaxIsComplete = (boolean) ((JavascriptExecutor) driver).executeScript("return jQuery.active === 0");
@@ -92,8 +93,7 @@ public class WaitsTest extends DriverBase {
             Thread.sleep(100);
         }
 
-        By locator = By.id("output");
-        assertEquals("hello world!", driver.findElement(locator).getText());
+        assertEquals("This is some text in a paragraph.", driver.findElement(By.id("div1")).findElement(By.tagName("p")).getText());
     }
 
     @AfterEach
